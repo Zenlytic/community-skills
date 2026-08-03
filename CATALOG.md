@@ -5,6 +5,7 @@ available; **keep it in sync when adding, renaming, or removing a skill.**
 
 | Skill | Path | What it does |
 |-------|------|--------------|
+| `data-viz-standards` | [`skills/data-viz-standards/SKILL.md`](skills/data-viz-standards/SKILL.md) | Standards for any chart, dashboard, diagram, or HTML report Zoë produces: picks the chart type from the analysis intent, derives an accessible palette (including from a brand color), and applies storytelling and layout rules. |
 | _(template)_ | [`skills/_template/SKILL.md`](skills/_template/SKILL.md) | Starting point for a new skill — copy, rename, fill in. Not a real skill; keep `enabled: false`. |
 
 <!--
