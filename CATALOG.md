@@ -5,8 +5,6 @@ available; **keep it in sync when adding, renaming, or removing a skill.**
 
 | Skill | Path | What it does |
 |-------|------|--------------|
-| `conversation-classifier` | [`skills/conversation-classifier/SKILL.md`](skills/conversation-classifier/SKILL.md) | Classifies one or more customer-to-Zoë conversations into structured, auditable judgements of outcome, sentiment, friction, use case, and supporting evidence for account-health analysis. |
-| `conversation-diagnostics-dashboard` | [`skills/conversation-diagnostics-dashboard/SKILL.md`](skills/conversation-diagnostics-dashboard/SKILL.md) | Builds a customer-safe, interactive HTML dashboard or report from an account's classified Zoë conversations. Use after `conversation-classifier`. |
 | `data-viz-standards` | [`skills/data-viz-standards/SKILL.md`](skills/data-viz-standards/SKILL.md) | Standards for any chart, dashboard, diagram, or HTML report Zoë produces: picks the chart type from the analysis intent, derives an accessible palette (including from a brand color), and applies storytelling and layout rules. |
 | `self-diagnosis` | [`skills/self-diagnosis/SKILL.md`](skills/self-diagnosis/SKILL.md) | Forensically diagnoses why Zoë chose, missed, or misapplied a skill, metric, measure, or field definition in an earlier turn, and identifies how to prevent recurrence. |
 | _(template)_ | [`skills/_template/SKILL.md`](skills/_template/SKILL.md) | Starting point for a new skill — copy, rename, fill in. Not a real skill; keep `enabled: false`. |
